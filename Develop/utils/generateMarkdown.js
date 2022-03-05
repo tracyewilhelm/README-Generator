@@ -56,6 +56,7 @@ function renderLicenseSection(balogna) {
     if (balogna.license == badge[i].name) {
       return (
         renderLicenseBadge(balogna) +
+        "\n" +
         renderLicenseLink(balogna) +
         "\n" +
         badge[i].desc
@@ -85,12 +86,12 @@ function generateMarkdown(response) {
    ## License 
    ${renderLicenseSection(response)}
    ## Credits 
-   ${response.contGuidelines}
+   ${response.credits}
    ## Tests 
    ${response.tests}
    ## Questions 
-   ${response.questions}\n
-   [GitHub User:](https://github.com/${response.gitHub})
+   Email: ${response.questions}\n
+   [GitHub User ${response.gitHub}:](https://github.com/${response.gitHub})
 
 
 
