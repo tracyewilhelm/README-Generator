@@ -47,7 +47,9 @@ THEN I am taken to the corresponding section of the README
 The following are submitted for review:
 
 - A walkthrough video demonstrating the functionality of the application.
+  https://drive.google.com/file/d/1qihoc_euUy-E9QFmhOeKQ3Fosw210iAG/view
 
-- A sample README.md file for a project repository generated using your application
+- A sample README.md file for a project repository generated using your application [Sample Screenshot](ScreenshotSample.png)
 
 - The URL of the GitHub repository, with a unique name and a README describing the project
+  https://github.com/tracyewilhelm/README-Generator
